@@ -34,7 +34,7 @@ if (!is_null($events['events'])) {
 		}
 	}
 }
-$Topic = "esp8266" ;
+$Topic = "led" ;
 $text = "test";
 getMqttfromlineMsg($Topic,$text);
 echo "OK3";
