@@ -14,7 +14,7 @@ function send_LINE($msg){
       $url = 'https://api.line.me/v1/oauth/verify';
       $data = [
 
-        'to' => '@977skcrt',
+        'to' => 'Uf2791e0854ddad31e4e0da01ade4a83b',
         'messages' => [$messages],
       ];
       $post = json_encode($data);
