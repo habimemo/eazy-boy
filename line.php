@@ -14,7 +14,7 @@ function send_LINE($msg){
       $url = 'https://api.line.me/v1/oauth/verify';
       $data = [
 
-        'to' => 'https://qr-official.line.me/sid/L/977skcrt.png',
+        'to' => '@977skcrt',
         'messages' => [$messages],
       ];
       $post = json_encode($data);
