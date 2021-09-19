@@ -11,7 +11,7 @@ function send_LINE($msg){
       ];
 
       // Make a POST Request to Messaging API to reply to sender
-      $url = 'https://qr-official.line.me/sid/L/977skcrt.png';
+      $url = 'https://api.line.me/v1/oauth/verify';
       $data = [
 
         'to' => 'https://qr-official.line.me/sid/L/977skcrt.png',
